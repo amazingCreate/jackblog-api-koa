@@ -8,7 +8,7 @@ var article = require('./api/article');
 var comment = require('./api/comment');
 var mobile = require('./api/mobile');
 var auth = require('./auth');
-var logs = require('./api/logs');
+
 
 module.exports = function(app) {
   Router.use('/users',users.routes(),users.allowedMethods());
